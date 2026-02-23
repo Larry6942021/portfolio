@@ -1,0 +1,74 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Resources",
+                "title_short_nav": "My Resources",
+                "title_long_prefix": "Collection of my published resources!",
+                "title_long": "My Published {{Resources}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": "My Published {{Resources}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/arix-mono.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://discord.com/invite/Vw6wQYEUfB", "tooltipString": "open_website", "faIcon": "fa-brands fa-discord"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Arix Library",
+                            "text": "Arix Library is a Skript file that contains a collection of useful and commonly used skript code snippets. It is designed to be imported into your own skript files, made for my own servers like OpenGen and Ninety.",
+                            "tags": ["Skript", "Library", "Unpublished"]
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "images/pictures/spigot.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.spigotmc.org/resources/offhand-skript-new.122913/", "tooltipString": "open_website", "faIcon": "fa-solid fa-faucet"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Offhand Skript",
+                            "text": "<p>Offhand Skript is a skript file that adds offhand item support for bedrock players. Useful in servers that use geyser, such as Minehut.</p><p>This was one of my first published skripts. Mainly used to test out uploading in spigot!</p>",
+                            "tags": ["Skript", "Command", "Public"]
+                        }
+                    }
+                }
+            ]
+}
+    ]
+}

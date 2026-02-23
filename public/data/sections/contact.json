@@ -1,0 +1,73 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact Me",
+                "title_short_nav": "Contact Me",
+                "title_long_prefix": "Available for freelance!",
+                "title_long": "My {{Contact}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "My {{Contact Information}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-discord",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {
+                            "title": "{{Discord}} - <em>main form of contact</em>",
+                            "text": "@Larry6942021"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": "Google",
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {
+                            "title": "{{E-mail}}",
+                            "text": "Larry6942021@gmail.com"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "wsymDlOeDeIAFiPK1",
+                "email_js_service_id": "service_9p8mptt",
+                "email_js_template_id": "template_3jxncpa"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                }
+            },
+            "items": null
+        }
+    ]
+}

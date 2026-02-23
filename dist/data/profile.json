@@ -1,0 +1,20 @@
+{
+    "name": "Larry6",
+    "profilePictureUrl": "images/pictures/pfp.png",
+    "resumePdfUrl": "",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+    "locales": {
+        "en": {
+            "localized_name": "Larry6",
+            "localized_name_stylized": "<strong>Larry{{6}}</strong>",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "On/Off Developer"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}

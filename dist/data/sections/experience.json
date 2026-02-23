@@ -1,0 +1,151 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "What I've done",
+                "title_short_nav": "Past Projects",
+                "title_long_prefix": "Experience History",
+                "title_long": "My {{Projects}}!"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": "A List of My {{Projects}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {"bg": "gold", "fill": "black"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://discord.com/invite/Jm5pwnSrqR", "tooltipString": "open_website", "faIcon": "fa-brands fa-discord"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=B04b8swEGA8"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Rizzmines",
+                            "text": "I was an early minor contributer to rizzmines. Rizzmines is a popular minehut server that was minehut's #1 box mining server. With custom bosses and items.",
+                            "tags": ["Contributer", "Project", "Building"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/opengen.webp",
+                    "faIcon": "fa-solid fa-tree",
+                    "faIconColors": {"bg": "white", "fill": "pink"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "OpenGen",
+                            "text": "OpenGen is a Minecraft MMORPG server started in early 2020. I was the owner and lead developer of the server until late 2024 when the server shut down it's development whilst still in beta. The server had custom mobs, items, and a custom map with dungeons, caves, and more. Designed to be a open-world pvp and pve server with RPG elements.",
+                            "tags": ["Founder", "Project", "Skript / Java"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/arix.png",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "blue", "fill": "white"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://discord.com/invite/Vw6wQYEUfB", "tooltipString": "open_website", "faIcon": "fa-brands fa-discord"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Arix Studios",
+                            "text": "Arix Studios is a Minecraft development studio that I founded in 2025. We create custom Minecraft servers and plugins for various clients. Our work includes developing custom skripts, plugins, and game modes. Arix Studios is known for its high-quality and organised development structure. With sub-projects like ArixLib and ArixCore. ArixLib being a library of reusable skript code and ArixCore being a custom plugin that provides various features for our servers.",
+                            "tags": ["Founder", "Studio", "Skript / Java"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/spigot.jpg",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "blue", "fill": "white"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.spigotmc.org/members/larry6942021.1724140/", "tooltipString": "open_website", "faIcon": "fa-solid fa-faucet"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SpigotMC Contributions",
+                            "text": "I have contributed to the SpigotMC community by creating and maintaining several popular plugins and resources. My contributions include developing custom skripts, plugins, and game modes for various Minecraft servers. I have also helped maintain and improve existing plugins in the community. Most of my work has been privated in spigot but any requests can be seen in my discord server.",
+                            "tags": ["Contributor", "SpigotMC", "Skript / Java"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/minehut.png",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "blue", "fill": "white"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.minehut.com/", "tooltipString": "open_website", "faIcon": "fa-solid fa-gem"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Minehut Server Developer",
+                            "text": "Throughout my years on Minecraft. I have developed and maintained several popular servers on the Minehut platform. My work includes creating custom skripts, plugins, and entire servers to free or paid clients. I have experience with various server types including survival, RPG, and box/gen servers. With over 200+ contributions to different servers I have a strong understanding on minecraft game development. I have worked on various servers, most notably Rizzmines, OpenGen, Oceaner, Ninety, FlatTycoon, SMOPS, FlatlinedMC, OverlordGen, Dropps, Raidura, and more.",
+                            "tags": ["Developer", "Minehut", "Skript / Java"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "blue", "fill": "white"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "WristTec - Comsci Research Project",
+                            "text": "WristTec is a research project that I am working along with my friends. The project is focused on developing a wearable device that can track and monitor sport metrics (ie. correcting form, tracking reps, etc). I am responsible for the software development of the project, including developing the device's firmware and the accompanying mobile application. The WristTec wristband uses inertial motion tracking technology and 3D model comparisons, taking advantage over Bosche mocap sensors and our very own motion capture software. The project is still in its early stages but we have made significant progress in developing a prototype of the device and the mobile application. The project is aimed to be released in late 2027 or early 2028.",
+                            "tags": ["Research", "Project", "C# / Java"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
