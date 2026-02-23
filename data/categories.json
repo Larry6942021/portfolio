@@ -1,0 +1,40 @@
+ {
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {
+                    "title": "Home"
+                }
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {
+                    "title": "Portfolio"
+                }
+            }
+        },
+        {
+            "id": "resources",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {
+                    "title": "Resources"
+                }
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-solid fa-user",
+            "locales": {
+                "en": {
+                    "title": "Contact"
+                }
+            }
+        }
+    ]
+}
